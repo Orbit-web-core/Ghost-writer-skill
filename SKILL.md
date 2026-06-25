@@ -1,6 +1,6 @@
 ---
 name: ghost-writer
-description: SEO blog writing skill that produces human-sounding blogs optimized for Google rankings AND AI citations (ChatGPT, Perplexity, Claude). Use when user asks to write a blog, create content, draft an article, mentions SEO writing, or says "ghost writer." The agent interviews the user like a journalist, then assembles a publish-ready blog from raw materials — not generates it from a prompt.
+description: SEO blog writing skill for Claude Code that interviews you like a journalist before writing. Produces human-sounding blogs optimized for Google rankings AND AI citations (ChatGPT, Perplexity, Claude). Use when user asks to write a blog, create content, draft an article, mentions SEO writing, or says "ghost writer." The agent interviews the user like a journalist, then assembles a publish-ready blog from raw materials — not generates it from a prompt.
 metadata:
   author: OrbitWeb
   version: 2.0.0
@@ -8,7 +8,7 @@ metadata:
   license: MIT
 ---
 
-# Ghost-Writer — SEO Blog Writing for Humans and AI
+# Ghost-Writer — Interview-Based SEO Blog Writing for Humans and AI
 
 ## What This Does
 

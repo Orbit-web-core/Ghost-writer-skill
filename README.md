@@ -1,6 +1,6 @@
 # Ghost-Writer
 
-SEO blog writing skill that produces human-sounding blogs optimized for **Google rankings** AND **AI citations** (ChatGPT, Perplexity, Claude).
+SEO blog writing skill that **interviews you like a journalist** before writing. Produces human-sounding blogs optimized for **Google rankings** AND **AI citations** (ChatGPT, Perplexity, Claude).
 
 ## What Makes This Different
 
