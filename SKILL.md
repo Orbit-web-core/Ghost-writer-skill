@@ -193,6 +193,12 @@ Generate 5-7 titles using at least 3 formulas. See `references/headline-craft.md
 - Promise test: Does blog deliver what title promises?
 - Specificity test: Could this title apply to 100 other posts?
 - Keyword test: Is keyword front-loaded?
+- **Love test: Does the user say "I love it" or "that's the one" — not just "that works"?**
+
+**Love It Gate:**
+Present 5-7 titles grouped by formula type. User MUST pick one they love. If they say "that works" or "I guess" or "whatever" — that's not good enough. Iterate with 5 more titles. Keep going until they say "I love it" or "that's the one."
+
+**Why:** The title is 80% of whether the piece gets read. If the user doesn't love it, the reader won't either.
 
 ---
 
@@ -209,6 +215,68 @@ Generate 5-7 titles using at least 3 formulas. See `references/headline-craft.md
 **Format:** Plain text/markdown. No HTML. Ready for any CMS.
 
 **Pro tip:** Paste the FAQ section into a separate FAQ block or schema markup. This is what makes ChatGPT and Perplexity cite your content.
+
+---
+
+## Troubleshooting
+
+### "I don't have a topic"
+**Fix:** Ask the user: "What frustrated you this week? What did a client say? What did you see a competitor do?" Turn any of those into a topic.
+
+### "The interview isn't unlocking the angle"
+**Fix:** Switch interview pattern. If "Pull the Thread" isn't working, try "How It Actually Happened" or "The Emperor Has No Clothes." Or ask: "What's the thing you know that nobody else does?"
+
+### "The user doesn't love any titles"
+**Fix:** Go deeper on the user's voice. Ask: "If you were writing this for a friend, what would you call it?" Use their exact words.
+
+### "The draft scores below 90"
+**Fix:** Identify which gate failed. Don't rewrite everything — fix only the failing category. If Gate 1 (AI-ism) failed, purge AI words and rescore. If Gate 6 (Humanizer) failed, vary sentence length and add concrete details.
+
+### "Keyword research returns no results"
+**Fix:** The keyword is too niche. Broaden it slightly. "revenue generating website for HVAC" → "revenue generating website for service business." Then narrow in the body.
+
+### "User wants to skip the interview"
+**Fix:** Explain: "The interview is what makes this sound like you, not ChatGPT. 3-5 questions. 2 minutes. That's what separates good blogs from generic ones."
+
+---
+
+## Examples
+
+### Example 1: Trend Topic
+**User:** "Write me a blog about AI replacing web designers."
+**Keyword:** "AI replacing web designers" → "AI web design disruption"
+**Interview:**
+- "Is this real or hype?"
+- "Who gets hurt? Who wins?"
+- "What's the version most people believe?"
+**Angle:** "They're firing brick-makers, not architects. The people who know what to build are more valuable than ever."
+**Formula:** The Inversion
+**Title:** "AI Fired 1,000 Web Designers. Here's Who Actually Wins."
+**Score:** 94/100
+
+### Example 2: Case Study
+**User:** "Blog about Matt's moving company."
+**Keyword:** "moving company revenue system"
+**Interview:**
+- "Walk me through the before/after."
+- "What number changed?"
+- "Who needs to hear this?"
+**Angle:** "From 3 calls a month to 47. Not because of a prettier website — because of a revenue system."
+**Formula:** Before-After-Bridge
+**Title:** "How MTS Moving Went from 3 Calls a Month to 47 — Without a Redesign"
+**Score:** 96/100
+
+### Example 3: User's Idea
+**User:** "I want to write about why pretty websites don't convert."
+**Keyword:** "pretty websites don't convert"
+**Interview:**
+- "What made you realize this?"
+- "What's the cost of believing pretty = effective?"
+- "What's the specific alternative?"
+**Angle:** "Pretty websites are digital brochures. Revenue systems are engines. The difference is $5M vs. $0."
+**Formula:** PAS
+**Title:** "Your Pretty Website Is Costing You $50K a Year. Here's the Fix."
+**Score:** 91/100
 
 ---
 
