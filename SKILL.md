@@ -68,6 +68,26 @@ Say: "Write me a blog about [topic]." The agent will:
 2. Concrete evidence
 3. Strong opinion
 
+### 🚨 ANTI-HALLUCINATION RULE — MANDATORY
+
+**If you don't know a detail about the user's background, DO NOT INVENT IT.**
+
+Examples of what NOT to do:
+- Don't invent specific years the user "started doing X" unless they told you
+- Don't invent client names, project names, or timeline milestones
+- Don't attribute quotes or opinions the user didn't express
+- Don't fill gaps in their story with plausible-sounding details
+
+**What to do instead:**
+- Ask: "When did you start doing X?"
+- Ask: "What was happening between [year A] and [year B]?"
+- Ask: "Give me the real timeline in your own words — even if it's rough."
+- Say: "I don't know this part — tell me before I write it."
+
+**The user should review their own biographical details in the draft before it ships.**
+
+**If you hallucinate a detail and the user catches it:** Apologize, ask for the real version, and rewrite. Do not defend the hallucination.
+
 **Gate 2:** Missing any = NO drafting.
 
 ---
