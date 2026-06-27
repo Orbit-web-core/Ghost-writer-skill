@@ -32,6 +32,38 @@ Say: "Write me a blog about [topic]." The agent will:
 
 ---
 
+## Upload an Existing Draft (Ephemeral)
+
+You can also upload an article you've already written, and the agent will reprocess it through the full ghost-writer pipeline.
+
+**Supported formats:** `.txt`, `.md`, `.pdf`, `.docx`
+
+**How it works:**
+1. **Ingest** — read the file once using only tools already installed in the environment (no bundled dependencies).
+2. **Deconstruct** — extract topic, thesis, evidence, opinion, audience, and CTA from the draft.
+3. **Keyword Lock** — research and confirm the best keyword (same gate as from-scratch).
+4. **Gap Interview** — ask 3-5 targeted questions based on what's missing from the draft.
+5. **Assembly** — rebuild using your strongest original sentences + the chosen formula + interview material.
+6. **SEO + AI Citation Optimization** — apply the same rules as a from-scratch blog.
+7. **Quality Gates** — score 90+ or rewrite.
+8. **Delivery** — title, meta, slug, body, FAQ, score card.
+
+**Ephemeral promise:** the uploaded file is read once and not stored. The only durable output is the final deliverable.
+
+**Trigger phrases:**
+- "Ghost-write this article" (with file attached)
+- "Upload this draft"
+- "Turn this into a blog"
+
+**Extraction tools used (environment-dependent, no bundled deps):**
+- `.txt` / `.md` — read directly
+- `.pdf` — `pdftotext` or `pandoc` if installed
+- `.docx` — `pandoc` or `docx2txt` if installed
+
+If no extractor is available, the agent asks you to paste the text instead.
+
+---
+
 ## Phase 1: Topic + Keyword Lock
 
 **Agent asks:**
