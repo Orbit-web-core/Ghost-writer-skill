@@ -169,3 +169,61 @@ User picks one.
 - Titles with colons that have weak second halves
 - Clickbait that doesn't deliver ("You Won't Believe What AI Did!")
 - Single-word titles ("Disruption") — not enough information
+
+---
+
+## Viral / Clickable Headline Framework
+
+A title goes viral when it triggers one of four emotions AND passes the click test. Apply this on top of the base formulas.
+
+### The Four Viral Triggers
+
+1. **Curiosity gap** — the reader knows enough to be hooked, but not enough to be satisfied. They MUST click to close the gap.
+2. **Specificity** — a concrete number, name, or detail that makes it feel real, not generic.
+3. **Emotional trigger** — fear, anger, surprise, or hope. A title with no emotion is a title nobody shares.
+4. **Identity** — the reader sees themselves in it. "For business owners who..." makes it personal.
+
+### The Click Test (ask before shipping any title)
+
+1. **Would I click this?** — be honest. If you'd scroll past, so will they.
+2. **Would I share this?** — viral titles get shared, not just clicked. Would you send it to a friend?
+3. **Does it make a promise?** — a title with no promise is a title with no reason to click.
+4. **Is it specific enough?** — could this title apply to 100 other posts? If yes, it's too generic.
+5. **Does it trigger emotion?** — if it's flat, it won't spread.
+
+### Viral Formula: The "Number + Threat/Promise + Specificity" Stack
+
+Stack a concrete number with a threat or promise and a specific detail:
+
+- "$50,000 a Year: What Your Website Is Quietly Costing You"
+- "3 Calls a Month to 47: The Exact System That Did It"
+- "1,000 Designers Fired. Here's What They Know That You Don't."
+
+### Viral Formula: The "You" Confrontation
+
+Put the reader in the title with a direct, slightly uncomfortable truth:
+
+- "You're Paying for Clicks. You're Not Getting Calls."
+- "Your Website Is a Brochure. That's Why You're Invisible."
+- "You Don't Understand Your Own Ads. That's the Problem."
+
+### Viral Formula: The Contrarian Bet
+
+Say the opposite of what everyone believes, with confidence:
+
+- "Pretty Websites Don't Pay Bills. Revenue Systems Do."
+- "SEO Is Dead. Here's What Replaced It."
+- "Most Agencies Want You Dependent. I Want You Independent."
+
+### The Shareability Rule
+
+A title is shareable when the reader can use it to signal something about themselves. "I shared this because it says what I've been thinking" is the viral engine. Ask: **does this title let the reader say something they already believe, but couldn't articulate?** If yes, it spreads.
+
+### The 4-Trigger Scorecard
+
+Score each title 0-4 (one point per trigger: curiosity, specificity, emotion, identity).
+
+- **4/4** — viral potential, ship it
+- **3/4** — strong, will get clicks
+- **2/4** — decent, but push for more
+- **0-1/4** — rewrite, it won't stop the scroll

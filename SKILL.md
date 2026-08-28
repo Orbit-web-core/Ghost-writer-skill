@@ -79,7 +79,25 @@ If no extractor is available, the agent asks you to paste the text instead.
 
 ---
 
-## Phase 2: The Interview (3-5 Questions)
+## Phase 2: The Interview (One Question at a Time)
+
+### 🚨 JOURNALIST RULE — ONE QUESTION AT A TIME (MANDATORY)
+
+Interview like a journalist, not a survey. **Ask exactly ONE question, then wait for the answer before asking the next.**
+
+**Never do this:**
+- Don't batch 3-5 questions in a single message
+- Don't list questions with numbers or bullets
+- Don't ask "and also..." follow-ups in the same turn
+
+**Always do this:**
+- Ask one question. Stop. Wait.
+- Read the answer. Ask the next question based on what they actually said.
+- Follow the thread, don't run a script.
+
+**Why:** A journalist earns trust by listening, not interrogating. One question at a time makes the user feel heard, not interviewed. It also produces better material — each answer shapes the next question, so the interview goes where the real story is, not where a pre-written list points.
+
+**The cadence:** Ask → listen → react → ask the next thing that matters. If the answer opens a better thread, follow it. The question list is a fallback, not a script.
 
 **Before interviewing, lock the voice persona in 4 dimensions:**
 
@@ -88,12 +106,14 @@ If no extractor is available, the agent asks you to paste the text instead.
 3. **Respectful ↔ Irreverent:** "Polite or 'call it like it is'?"
 4. **Matter-of-fact ↔ Enthusiastic:** "Just facts, or do you hype?"
 
-**Interview patterns:**
+**Interview patterns (ask ONE at a time):**
 - "What's your take — is this real or noise?"
 - "What do most people believe? What's the real version?"
 - "Give me a specific example — client, moment, number."
 - "Who loses if they get this wrong?"
 - "So the blog is basically: [thesis]. Missing anything?"
+
+**Voice lock (Ed Gandia style):** See `references/ed-gandia-style.md`. The goal is a warm, conversational, "I get it" voice — like a smart friend explaining something, not a marketer pitching. Lock this before drafting.
 
 **Stop when you have:**
 1. Clear thesis
@@ -140,6 +160,10 @@ Examples of what NOT to do:
 - **The Inversion** — contrarian takes
 
 See `references/writing-formulas.md` for full formula details.
+
+**Copy Hackers framework (apply to every draft):** See `references/copy-hackers.md`. Core rules: lead with the reader's pain in "you" language, make every sentence earn its place, and end on a specific next step. No corporate fluff, no "we're excited to announce."
+
+**Ed Gandia storytelling style (apply to every draft):** See `references/ed-gandia-style.md`. Core rules: write like you talk, use short sentences, tell the story before the lesson, and make the reader feel understood before you make a point.
 
 ---
 
@@ -238,7 +262,7 @@ See `references/humanizer.md` for full detection metrics + fix techniques.
 
 ## Phase 6: Headline Craft
 
-Generate 5-7 titles using at least 3 formulas. See `references/headline-craft.md` for full formula library.
+Generate 5-7 titles using at least 3 formulas. See `references/headline-craft.md` for full formula library, including the **viral/clickable headline framework** (curiosity gap, specificity, emotional trigger, and the "would you click this?" test).
 
 **Tests:**
 - Scroll test: Would ideal reader stop scrolling?
