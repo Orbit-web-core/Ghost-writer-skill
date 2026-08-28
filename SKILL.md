@@ -1,31 +1,34 @@
 ---
 name: ghost-writer
-description: SEO blog writing skill for Claude Code that interviews you like a journalist before writing. Produces human-sounding blogs optimized for Google rankings AND AI citations (ChatGPT, Perplexity, Claude). Use when user asks to write a blog, create content, draft an article, mentions SEO writing, or says "ghost writer." The agent interviews the user like a journalist, then assembles a publish-ready blog from raw materials — not generates it from a prompt.
+description: Interview-based copywriting skill for Claude Code that interviews you like a journalist before writing. Produces human-sounding blogs, website homepages, and landing pages optimized for Google rankings, AI citations (ChatGPT, Perplexity, Claude), AND conversion. Use when user asks to write a blog, create content, draft an article, write website copy, write a homepage, write a landing page, mentions SEO writing, or says "ghost writer." The agent interviews the user like a journalist, then assembles publish-ready copy from raw materials — not generates it from a prompt.
 metadata:
   author: OrbitWeb
-  version: 2.0.0
+  version: 2.1.0
   mcp-server: none
   license: MIT
 ---
 
-# Ghost-Writer — Interview-Based SEO Blog Writing for Humans and AI
+# Ghost-Writer — Interview-Based Copywriting for Blogs, Homepages, and Landing Pages
 
 ## What This Does
 
-Ghost-Writer interviews you like a journalist, then assembles a blog post optimized for:
+Ghost-Writer interviews you like a journalist, then assembles copy optimized for:
 - **Google rankings** — keyword placement, EEAT signals, on-page SEO
 - **AI citations** — structured so ChatGPT, Perplexity, and Claude mention your content
+- **Conversion** — homepages and landing pages built to turn visitors into customers
 - **Human readers** — your voice, your stories, your expertise
+
+**This is a full-site copywriting skill, not just a blog writer.** It writes blogs, website homepages, and landing pages. If the user asks to update their entire site, the agent writes every page — not just blog posts.
 
 ## The Promise
 
-Every blog passes 5 quality gates and scores 90+ on a 100-point rubric before delivery. If it fails, the agent rewrites it. No exceptions.
+Every piece of copy passes 5 quality gates and scores 90+ on a 100-point rubric before delivery. If it fails, the agent rewrites it. No exceptions.
 
 ## How to Use
 
-Say: "Write me a blog about [topic]." The agent will:
-1. Lock your keyword
-2. Interview you (3-5 questions)
+Say: "Write me a blog about [topic]." or "Write my homepage." or "Write a landing page for [offer]." The agent will:
+1. Lock your keyword (blogs) or your conversion goal (homepages/landing pages)
+2. Interview you (one question at a time)
 3. Assemble the draft
 4. Score it (0-100)
 5. Deliver only if 90+
@@ -76,6 +79,30 @@ If no extractor is available, the agent asks you to paste the text instead.
 - Surfaces keyword: **"Keyword: [X]. Does this work?"**
 
 **Gate 1:** No confirmed keyword = NO writing.
+
+---
+
+## Phase 1b: Website / Homepage / Landing Page (Conversion Goal Lock)
+
+**When the user asks to write a homepage, landing page, or update their site, this is the path — NOT the blog path.**
+
+**Agent asks (one at a time):**
+1. "What page is this — homepage, landing page, or a specific page?"
+2. "What's the ONE action you want the visitor to take?" (call, form fill, purchase, book a call)
+3. "Who's the ideal visitor — what's their situation and pain?"
+4. "What's the offer, and what's the outcome they get?"
+5. "What proof do you have — numbers, testimonials, case studies?"
+
+**Agent locks the conversion goal:** "So the goal is: [visitor] takes [action] because [outcome]. Does that sound right?"
+
+**Gate 1b:** No confirmed conversion goal = NO writing.
+
+**Then apply the full conversion rules from `references/website-copy.md`:**
+- Homepage: hero headline, subhead, CTA, social proof, problem/solution/proof/process/objection/CTA sections
+- Landing page: headline, subhead, offer bullets, proof, objection handling, CTA, risk reversal
+- Both: "you" language, one CTA repeated, specific proof, pain first, no fluff
+
+**The interview still runs one question at a time (journalist rule).** The only difference from blogs is the goal: conversion, not keyword ranking.
 
 ---
 
@@ -281,7 +308,7 @@ Present 5-7 titles grouped by formula type. User MUST pick one they love. If the
 
 ## Phase 7: Delivery
 
-**Final package:**
+**Final package (blogs):**
 1. Title (H1)
 2. **Quick Answer block (blogs only)** — 2-3 sentence direct answer, keyword in first sentence
 3. Meta description
@@ -289,6 +316,14 @@ Present 5-7 titles grouped by formula type. User MUST pick one they love. If the
 5. Blog body (markdown)
 6. FAQ section (3-5 Q&A pairs)
 7. Score card (0-100, category breakdown)
+
+**Final package (homepage / landing page):**
+1. Hero headline + subheadline
+2. Primary CTA (the one action)
+3. Page sections in order (hero, problem, solution, proof, process, objection, CTA)
+4. Social proof (specific numbers, testimonials, logos)
+5. Objection handling (top 2-3 fears answered)
+6. Score card (0-100, category breakdown)
 
 **Format:** Plain text/markdown. No HTML. Ready for any CMS.
 
@@ -368,3 +403,6 @@ Present 5-7 titles grouped by formula type. User MUST pick one they love. If the
 **Quality scoring:** See `references/quality-scoring.md`
 **Humanizer check:** See `references/humanizer.md`
 **Writing formulas:** See `references/writing-formulas.md`
+**Copy Hackers framework:** See `references/copy-hackers.md`
+**Ed Gandia style:** See `references/ed-gandia-style.md`
+**Website copy (homepage + landing page):** See `references/website-copy.md`
