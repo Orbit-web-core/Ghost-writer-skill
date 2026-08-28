@@ -8,6 +8,32 @@ GEO = Generative Engine Optimization. It's SEO for AI answers. When someone asks
 
 ## The GEO Checklist
 
+### 0. Quick Answer Block (Blogs Only) — MANDATORY
+
+**Every blog article gets a "Quick Answer" block at the very top, before the intro.** This is the single highest-leverage GEO move: it gives AI models a clean, self-contained answer to extract and cite as the direct answer to the query.
+
+**Format:**
+```
+**Quick Answer:** [2-3 sentence direct answer to the target query, in plain language, with the keyword in the first sentence.]
+```
+
+**Rules:**
+- **2-3 sentences max.** No paragraphs. AI extracts short, dense answers.
+- **Answer the query directly.** If the keyword is "revenue system for service business," the quick answer defines it in one breath.
+- **Keyword in the first sentence.** Front-load it so AI and Google both catch it.
+- **No fluff, no throat-clearing.** No "in this article we'll explore." Just the answer.
+- **Self-contained.** The block must make sense on its own, lifted out of context.
+- **Plain language.** Write it like you'd answer a friend's question, not like a textbook.
+
+**Example:**
+> **Quick Answer:** A revenue system is a website built to rank on Google, get recommended by AI, and turn visitors into phone calls. It's the difference between a digital brochure and a lead engine.
+
+**Why this works:** When someone asks ChatGPT or Perplexity "what is a revenue system," the model scans for a dense, self-contained answer near the top. The Quick Answer block is exactly that — a ready-made citation.
+
+**Placement:** Always the first thing after the H1 title, before the intro paragraph. It's the answer-first principle made explicit and extractable.
+
+---
+
 ### 1. Answer-First Formatting
 **Put the key answer in the first 2 sentences.** AI models extract the first few sentences as the "answer." Don't bury the lead.
 
@@ -98,6 +124,7 @@ Use "People Also Ask" style questions as H2s or H3s.
 
 Before shipping, verify:
 
+- [ ] **Quick Answer block present at the top (blogs only)** — 2-3 sentences, keyword in first sentence, self-contained
 - [ ] Key answer appears in first 2 sentences
 - [ ] Content structured in 120-180 word passages
 - [ ] FAQ section included (3-5 Q&A pairs)

@@ -182,6 +182,7 @@ See `references/writing-formulas.md` for full formula details.
 
 ### AI Citation Optimization (GEO/AEO)
 See `references/ai-citation.md` for full GEO checklist.
+- **Quick Answer block at the top (blogs only)** — 2-3 sentence direct answer, keyword in first sentence, self-contained
 - Answer-first formatting
 - Passage-level citability (120-180 word blocks)
 - FAQ schema (3-5 Q&A pairs)
@@ -282,11 +283,12 @@ Present 5-7 titles grouped by formula type. User MUST pick one they love. If the
 
 **Final package:**
 1. Title (H1)
-2. Meta description
-3. URL slug
-4. Blog body (markdown)
-5. FAQ section (3-5 Q&A pairs)
-6. Score card (0-100, category breakdown)
+2. **Quick Answer block (blogs only)** — 2-3 sentence direct answer, keyword in first sentence
+3. Meta description
+4. URL slug
+5. Blog body (markdown)
+6. FAQ section (3-5 Q&A pairs)
+7. Score card (0-100, category breakdown)
 
 **Format:** Plain text/markdown. No HTML. Ready for any CMS.
 
